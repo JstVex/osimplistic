@@ -10,10 +10,113 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         {/* <link rel="icon" href="/favicon.ico" /> */}
       </Head>
-      <main className=''>
-        <h1 className="text-3xl font-bold underline">
-          Hi mom
-        </h1>
+      <main className='h-full bg-amber-100'>
+        {/* first section */}
+        <section className="h-screen w-screen bg-[url('https://images.unsplash.com/photo-1494256997604-768d1f608cac?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2129&q=80')] bg-cover flex flex-col items-center justify-center text-white" >
+          <span className="text-3xl p-5">
+            Ready to make your online shopping experience smoother?
+          </span>
+          <span className='inline-block p-5'>
+            osimplistic is here to make it better, simpler, faster for both customers and page owners.
+          </span>
+          <button className='bg-amber-400 p-3 text-white rounded-2xl '>
+            Get started
+          </button>
+        </section>
+        {/* second section */}
+        <section className="h-full flex items-center flex-col">
+          <div className="flex flex-col items-center">
+            <h2 className="text-center m-7 text-3xl">
+              What benefits can i get from here?
+            </h2>
+            <span className='px-5 text-center text-xl'>
+              Well, a lot. The main purpose of this is to connect page owners with customers more and make it easier for both sides. It is really hard to find what u want on facebook and when you find a page it is time consuming to scroll until u find the thing u want. For page owners, it is hard to attract customers and difficult to portray all products on facebook pages.
+            </span>
+          </div>
+          <div className='flex my-5'>
+            <div className='py-5 px-8 border border-amber-800 m-7'>
+              <h3 className='text-center text-xl pb-3'>
+                For customers
+              </h3>
+              <span>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus animi, natus pariatur, possimus quo placeat, ab molestias eius velit ratione perferendis provident esse laboriosam nihil. Quia laborum neque officiis deserunt? Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis consequuntur numquam omnis adipisci pariatur neque iusto tempore iste officia cupiditate, aspernatur vitae praesentium repudiandae culpa possimus ut, cum recusandae voluptate.
+              </span>
+            </div>
+            <div className='py-5 px-8 border border-amber-800 m-7'>
+              <h3 className='text-center text-xl pb-3'>
+                For page owners
+              </h3>
+              <span>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus animi, natus pariatur, possimus quo placeat, ab molestias eius velit ratione perferendis provident esse laboriosam nihil. Quia laborum neque officiis deserunt? Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis consequuntur numquam omnis adipisci pariatur neque iusto tempore iste officia cupiditate, aspernatur vitae praesentium repudiandae culpa possimus ut, cum recusandae voluptate.
+              </span>
+            </div>
+          </div>
+        </section >
+        {/* third section */}
+        <section className="h-full bg-amber-50">
+          <h2 className='text-2xl text-center p-5'>
+            Features
+          </h2>
+          <div className="flex flex-col justify-center">
+            <div className="m-5">
+              <span className='py-2 px-3 m-4 text-xl border border-amber-800 rounded-full'>
+                1.
+              </span>
+              <span className='text-xl'>
+                Optimized searching using keywords for fast and effective results.
+              </span>
+            </div>
+            <div className="m-5">
+              <span className='py-2 px-3 m-4 text-xl border border-amber-800 rounded-full'>
+                2.
+              </span>
+              <span className='text-xl'>
+                End to end chat between each customer and page owner.
+              </span>
+            </div>
+            <div className="m-5">
+              <span className='py-2 px-3 m-4 text-xl border border-amber-800 rounded-full'>
+                3.
+              </span>
+              <span className='text-xl'>
+                Tags and topics for distingusihing each category of product.
+              </span>
+            </div>
+            <div className="m-5">
+              <span className='py-2 px-3 m-4 text-xl border border-amber-800 rounded-full'>
+                4.
+              </span>
+              <span className='text-xl'>
+                Your own customizable page for each page owner.
+              </span>
+            </div>
+            <div className="m-5">
+              <span className='py-2 px-3 m-4 text-xl border border-amber-800 rounded-full'>
+                5.
+              </span>
+              <span className='text-xl'>
+                Customers can star to save a product and heart to support a page.
+              </span>
+            </div>
+            <div className="m-5">
+              <span className='py-2 px-3 m-4 text-xl border border-amber-800 rounded-full'>
+                6.
+              </span>
+              <span className='text-xl'>
+                Many more
+              </span>
+            </div>
+          </div>
+        </section >
+        {/* fourth section */}
+        <section className="h-full bg-yellow-100">
+          <h2 className="text-2xl text-center p-5">
+            Ideas behind this
+          </h2>
+          <p className='mx-4 text-center'>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Corrupti distinctio quis commodi debitis molestias illum error, quod exercitationem porro iure a, deserunt fugit repellat aspernatur vero autem expedita doloribus soluta. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptas hic ratione explicabo nihil eos corrupti inventore reiciendis. Repudiandae accusantium dolorem impedit ab voluptates asperiores nulla, tempora amet dolore sunt fuga.
+          </p>
+        </section>
       </main>
     </>
   )
